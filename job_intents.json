@@ -1,0 +1,46 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Xin chào", "Bạn có khỏe không", "Hello", "Này", "Hola", "Bạn rảnh không?", "Ngày tốt lành", "Hey", "Ê", "Hi"],
+     "responses": ["Xin chào", "Tôi có thể giúp gì cho bạn?", "Watsupp?", "Hola", "Chào nhé", "Lại là bạn à? Lần này là gì đây?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Tạm biệt", "Hẹn gặp lại", "Chào nhé", "Ok bye", "Bye Bye"],
+     "responses": ["Hẹn gặp lại!", "Chúc một ngày tốt lành", "Chắc chắn rồi", "Bye", "Sayoonara", "Bình yên", "Chắc chắn rồi anh bạn", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Cảm ơn", "Cảm ơn", "Thật hữu ích", "Tuyệt vời, cảm ơn", "Cảm ơn vì đã giúp đỡ tôi"],
+     "responses": ["Rất vui vì giúp được cho bạn", "Hihi", "Rất hân hạnh", "Không có chi", "Chắc chắn rồi bạn iu"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Xin lỗi, không hiểu được bạn", "Xin vui lòng cho tôi biết thêm thông tin", "Tôi không hiểu lắm"]
+     },
+     {"tag": "name",
+      "patterns": ["Tên bạn là gì", "Tên bạn là gì", "Hãy cho tôi biết tên bạn", "Bạn là ai", "Hãy kể cho tôi nghe về bản thân bạn", "Bạn là ai"],
+      "responses": ["Tôi là Na", "Tên tôi là Na", "Bạn có thể gọi tắt là Na", "Tôi là Na, bạn bè gọi tôi là NT", "Na là tên tôi"]
+      },
+      {"tag": "options",
+       "patterns": ["Bạn làm gì", "Bạn có thể giúp như thế nào", "Bạn biết gì", "Mục đích của bạn là gì", "Bạn có thể giúp như thế nào"],
+       "responses": ["Tôi có thể kể cho bạn nghe về Hải Phòng", "Tôi có thể cho bạn biết những sự thật thú vị về Hải Phòng"]
+      },
+     {"tag": "hai_phong_info",
+      "patterns": ["Hải Phòng", "Bạn có thể nói gì với tôi về HP", "SA", "Hãy kể cho tôi nghe về HP", "Còn HP thì sao", "Bạn biết gì về HP", "Hãy kể cho tôi biết thêm về HP", " Bạn có thể kể cho tôi nghe điều gì về Hải Phòng", "Hãy kể cho tôi nghe về Hải Phòng", "Về Hải Phòng thì sao", "Bạn biết gì về Hải Phòng", "Hãy kể cho tôi biết thêm về Hải Phòng"],
+      "responses": ["Hải Phòng là một trong năm thành phố trực thuộc trung ương của Việt Nam. Đây là thành phố lớn thứ ba Việt Nam, thành phố cảng quan trọng, trung tâm công nghiệp, cảng biển, đồng thời cũng là trung tâm kinh tế, văn hóa, y tế, giáo dục, khoa học, thương mại và công nghệ. Hải Phòng còn nổi tiếng với nhiều điểm du lịch tuyệt đẹp và các món ăn hấp dẫn. Các điểm du lịch Hải Phòng có nhiều biển, đảo, vịnh đẹp, và món ăn hấp dẫn, như bãi biển Đồ Sơn, đảo Hòn Dấu, văn hóa ẩm thực độc đáo."]
+      },
+      {"tag": "hai_phong_facts",
+       "patterns": ["Sự thật về Hải Phòng", "Sự thật về HP", "Cung cấp cho tôi một số thông tin thực tế về Hải Phòng", "Hãy cho tôi một số thông tin thực tế về Hải Phòng", "Thông tin về HP", "Sự thật thú vị về HP", "Sự thật về Hải Phòng", "Hải Phòng sự thật thú vị", "Hãy kể cho tôi điều gì đó thú vị"],
+       "responses": [
+         "Cảng Hải Phòng là một trong những cảng biển lớn nhất và quan trọng nhất tại Việt Nam. Nó đóng vai trò quan trọng trong hoạt động xuất nhập khẩu và thương mại quốc tế.",
+         "Cảng Cát Bà, nằm gần Hải Phòng, là một trong những điểm du lịch biển đẹp nhất Việt Nam. Đảo Cát Bà thu hút du khách bởi cảnh đẹp tự nhiên, bãi biển tuyệt vời và hệ sinh thái động, thực vật đa dạng.",
+         "Mặc dù không nằm trực tiếp trong lãnh thổ của Hải Phòng, Vịnh Hạ Long chỉ cách thành phố khoảng 50 km về phía đông. Nó được UNESCO công nhận là di sản thế giới với cảnh đẹp ngoạn mục của các hòn đảo đá vôi.",
+         "Là cây cầu cắt ngang trên con đường huyết mạch nối liền Hải Phòng với Vịnh Hạ Long, cầu Bãi Cháy mang đến cảnh đẹp tuyệt vời và là một điểm chụp ảnh phổ biến.",
+         "Là một trong những chợ lớn và truyền thống nhất ở Hải Phòng, Chợ Đông Xuân thu hút đông đảo người dân và du khách đến mua sắm.",
+         "Đê chắn sóng chắn cát dài nhất: Đê Chắn Cát Hải. Đoạn đê chắn sóng này có chiều dài 2.480m",
+         "Địa điểm du lịch đẹp nhất: Bãi biển Đồ Sơn, Đảo Hòn Dấu và Đảo Cát Bà",
+         "Đặc sản ngon nhất: Rượu nếp cái hoa vàng, Mật ong Cát Bà, Chả chìa Hạ Lũng, Cơm cháy hải sản, Sá Sùng khô, Ruốc tôm, Cá thu một nắng, Mực khô Cát Bà",
+         "Di tích lịch sử đẹp nhất: Tượng nữ tướng Lê Chân, Nhà hát Thành phố"
+       ]
+      }
+  ]
+}
